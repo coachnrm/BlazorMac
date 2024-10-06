@@ -1,0 +1,23 @@
+@page "/get-mac"
+@using BlazorMac.Services;
+@inject NetworkService NetworkService
+@rendermode InteractiveServer 
+
+<h3>Get Server MAC Address</h3>
+@* <button @onclick="GetMacAddress">Get MAC Address</button> *@
+
+<p>@macAddress</p>
+
+@code {
+    private string macAddress;
+
+    @* private void GetMacAddress()
+    {
+        macAddress = NetworkService.GetMacAddress();
+    } *@
+
+    protected override void OnInitialized()
+    {
+        macAddress = NetworkService.GetMacAddress();
+    }
+}

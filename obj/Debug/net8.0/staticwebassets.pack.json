@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/home/Desktop/BlazorMac/obj/Debug/net8.0/scopedcss/projectbundle/BlazorMac.bundle.scp.css",
+      "PackagePath": "staticwebassets/BlazorMac.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/home/Desktop/BlazorMac/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/home/Desktop/BlazorMac/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/home/Desktop/BlazorMac/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/home/Desktop/BlazorMac/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.BlazorMac.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.BlazorMac.props",
+      "PackagePath": "build\\BlazorMac.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.BlazorMac.props",
+      "PackagePath": "buildMultiTargeting\\BlazorMac.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.BlazorMac.props",
+      "PackagePath": "buildTransitive\\BlazorMac.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
