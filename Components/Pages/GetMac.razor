@@ -7,17 +7,26 @@
 @* <button @onclick="GetMacAddress">Get MAC Address</button> *@
 
 <p>@macAddress</p>
+<p>@formattedMac</p>
 
 @code {
     private string macAddress;
+    private string formattedMac;
 
     @* private void GetMacAddress()
     {
         macAddress = NetworkService.GetMacAddress();
+        formattedMac = FormatMacAddress(macAddress);
     } *@
 
-    protected override void OnInitialized()
+     protected override void OnInitialized()
     {
         macAddress = NetworkService.GetMacAddress();
+        formattedMac = FormatMacAddress(macAddress);
+    } 
+
+    public static string FormatMacAddress(string mac)
+    {
+        return string.Join(":", Enumerable.Range(0, 6).Select(i => mac.Substring(i * 2, 2)));
     }
 }

@@ -27,3 +27,4 @@
 /Users/home/Desktop/BlazorMac/obj/Debug/net8.0/BlazorMac.pdb
 /Users/home/Desktop/BlazorMac/obj/Debug/net8.0/BlazorMac.genruntimeconfig.cache
 /Users/home/Desktop/BlazorMac/obj/Debug/net8.0/ref/BlazorMac.dll
+/Users/home/Desktop/BlazorMac/obj/Debug/net8.0/BlazorMac.sourcelink.json

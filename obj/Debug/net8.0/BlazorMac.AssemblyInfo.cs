@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorMac")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f35f91bb4782e66545166b006a19e829e72bb080")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorMac")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorMac")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
